@@ -1,2 +1,2 @@
 # ball_movement
-The "Diagonal Ball Movement Inside Container" is a JavaScript-powered web application that showcases the dynamic motion of a ball as it moves diagonally within a designated container on a webpage. This interactive simulation offers users an engaging visual experience while highlighting the principles of motion and animation.
+This project has a simple Red color ball, which will move from top to bottom and bottom to top, like bouncing from between the x and y axis. It will repeat this process whenever we load the page. The ball is created by HTML, CSS. And making the ball to do some event by JAVASCRIPT.
