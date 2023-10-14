@@ -1,9 +1,13 @@
 # ball_movement
 DISCRIPTION:
-This project has a simple Red color ball, which will move from top to bottom and bottom to top, like bouncing from between the x and y axis. It will repeat this process whenever we load the page. The ball is created by HTML, CSS. And making the ball to do some event by JAVASCRIPT.
+*The HTML and JavaScript code you have provided will move a ball around the screen in a straight line, bouncing off the walls. The ball will start moving in the top left corner of the screen and will move at a speed of 10 pixels per frame.
 
-STEPS TO RUN THE PROJECT: 
-STEP 1-Drag the index file into the browser.
-STEP 2-Refresh the page to see code changes in action.
+Steps to Run the Project:
+*The HTML code creates a simple web page with a single element, a div element with the id ball. This element will be used to represent the ball on the screen *The JavaScript code defines a function called move(). This function will be used to update the position of the ball on the screen.
 
-FUTURE IMPROVEMENT:In the future this project willget enhanced by adding more animations and styles.                          
+*The move() function first checks if the ball is within the bounds of the screen. If it is, the function updates the ball's x and y position by adding the velocity to each position. The function then updates the ball's CSS top and left properties to reflect its new position.
+
+*The setInterval() function is used to call the move() function every 100 milliseconds. This will cause the ball to move smoothly across the screen.
+
+Future Improvements:
+This Project can be further enhanced by creating an animation like a boy bouncing the ball
